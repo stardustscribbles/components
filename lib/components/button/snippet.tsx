@@ -1,10 +1,12 @@
-// import hljs from 'highlight.js/lib/core';
-// import javascript from 'highlight.js/lib/languages/javascript';
+import code from "./Button";
 
-// // Then register the languages you need
-// hljs.registerLanguage('javascript', javascript);
 
-// const highlightedCode = hljs.highlight(
-//     '<span>Hello World!</span>',
-//     { language: 'typescript' }
-// ).value
+const SSButtonSnippet: React.FC<{}> = ({ }) => {
+    return (
+        <>
+            {code}
+        </>
+    )
+}
+
+export default SSButtonSnippet;

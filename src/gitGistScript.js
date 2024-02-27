@@ -2,12 +2,13 @@ import { Octokit } from "octokit";
 import fs from "fs";
 import path from "path";
 import previousGistIds from "./gistIds.json" with { type: "json" };
+import gitTokenJson from "./gitToken.json" with { type: "json" };
 
 const directoryPath = path.join(new URL('../lib/components/', import.meta.url).href.replace("file:", ""));
 const gistIdsJsonPath = path.join(new URL('gistIds.json', import.meta.url).href.replace("file:", ""));
 
 // console.log(gistIdsJsonPath);
-const gitToken = "YOUR_TOKEN";
+const gitToken = gitTokenJson["token"];
 
 const octokit = new Octokit({
     auth: gitToken

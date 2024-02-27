@@ -1,0 +1,11 @@
+:root {
+    --ss-border-radius-xs: 4px;
+    --ss-border-radius-sm: 8px;
+    --ss-border-radius-md: 16px;
+    --ss-border-radius-lg: 32px;
+
+    --ss-padding-xs: 4px;
+    --ss-padding-sm: 8px;
+    --ss-padding-md: 12px;
+    --ss-padding-lg: 18px;
+}

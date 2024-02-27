@@ -1,0 +1,49 @@
+.h1 {
+    @apply text-8xl;
+    @apply font-bold;
+}
+
+.h2 {
+    @apply text-6xl;
+    @apply font-bold;
+}
+
+.h3 {
+    @apply text-4xl;
+    @apply font-bold;
+}
+
+.h4 {
+    @apply text-3xl;
+    @apply font-bold;
+}
+
+.h5 {
+    @apply text-2xl;
+    @apply font-bold;
+}
+
+.h6 {
+    @apply text-xl;
+    @apply font-bold;
+}
+
+.base {
+    font-size: 1rem;
+}
+
+.sm {
+    font-size: 0.875rem;
+}
+
+.xs {
+    font-size: 0.75rem;
+}
+
+.primary {
+    color: var(--ss-primary600);
+}
+
+.secondary {
+    color: var(--ss-secondary600);
+}

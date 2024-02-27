@@ -1,0 +1,1 @@
+export { default as SSCard1 } from "./card1";

@@ -1,0 +1,1 @@
+export { default as SSGoogleIcon } from "./google-icon";

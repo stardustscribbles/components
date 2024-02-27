@@ -1,0 +1,39 @@
+.component-showcase-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ss-background);
+    border-radius: var(--ss-border-radius-sm);
+    border: 1px solid var(--ss-neutral800);
+    width: 100%;
+    overflow: hidden;
+}
+
+.component-showcase-header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--ss-neutral1300);
+    overflow: hidden;
+
+}
+
+.component-showcase-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.component-showcase-component>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
